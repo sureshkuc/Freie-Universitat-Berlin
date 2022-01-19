@@ -1,0 +1,12 @@
+Goal of the Project: To build a Deep Learing algorithm to classify the breast
+tumour tissue as Benign (Non - Cancer) or Malignant (Cancer) through breast
+cancer histopathology images.
+
+Main Result of the Project: A Deep Learning Based Classifier (CNN) was built
+to classify the tumour into cancerous or non cancerous.
+
+Personal Key Leanings: We created a deep learning classifier for the first time,
+and understood the vital aspects of the algorithm.
+
+Keywords: Convolutional Neural Network CNN; DenseNet201; Deep Learning;
+breastcancer histopathology images
