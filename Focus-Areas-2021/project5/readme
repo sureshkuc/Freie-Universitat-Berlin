@@ -1,0 +1,11 @@
+Goal of the Project: To execute SQL queries using Python programming
+language with BigQuery and estimate scan size using helper package, along with
+plotting the most meaningful data graphically from a huge chunk of data.
+
+Main Result of the Project: Successfully running the query(s) on Google Colab
+using BigQuery API, in a very quick succession of time.
+
+Personal Key Leanings: We understood the Big Query API, how fast it works,
+and to use those APIs using Python Notebooks (Google Colab).
+
+Keywords: BigQuery API; SQL; Large Dataset; Quick execution
