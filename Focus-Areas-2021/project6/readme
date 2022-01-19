@@ -1,0 +1,14 @@
+Goal of the Project: We need to forecast numbers of covid-19 cases in Germany
+(time-series data) using decomposition model and an auto-regressive model with
+visualization and analysis.
+
+Main Result of the Project: Successfully build the decomposition
+model(Prophet library), an auto-regressive model and LSTM to predict the
+number of Covid-19 case in Germany with analysis.
+
+Personal Key Leanings: We understood the vital aspect of decomposition
+model(Prophet library), an auto-regressive model(SARIMA) and LSTM to predict
+the time series data.
+
+Keywords: Time Series data trend, seasonality and noise; Prophet library;
+SARIMA; LSTM; Covid-19 cases in Germany
