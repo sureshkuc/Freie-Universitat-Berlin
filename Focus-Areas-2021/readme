@@ -1,0 +1,35 @@
+Project2: To build, and eventually evaluate and analyze the best
+possible classifier for Breast Cancer Diagnostics, along with which features are
+the most important to get the proper classification.
+
+Project3: To build a Deep Learing algorithm to classify the breast
+tumour tissue as Benign (Non - Cancer) or Malignant (Cancer) through breast
+cancer histopathology images.
+
+Project4: Task 1 : To gather statistical information about the data along with
+preprocessing the data like imputation.
+Task 2 : Using spark to develop evaluate and compare two predictors to predict
+the probability of a stroke happening to a patient, for both balanced and
+unbalanced dataset.
+
+Project5: To execute SQL queries using Python programming
+language with BigQuery and estimate scan size using helper package, along with
+plotting the most meaningful data graphically from a huge chunk of data.
+
+Project6: We need to forecast numbers of covid-19 cases in Germany
+(time-series data) using decomposition model and an auto-regressive model with
+visualization and analysis.
+
+Project7 & 8: To find the co-relation between the activity and the stress
+for the students studying in a university, along with the other stress correlated
+features and training a classifier model to classify the mental state of a student.
+
+Project9: To study the data given, about the students’ personality
+traits, social behaviour and predict how co-related ((Or Different) are the
+individuals from others in the group along with predicting the individual’s
+personality.
+
+Project10: To employ cluster analysis and dimensionality reduction
+(using SVD) to extract patterns from large data of Facebook users and their likes
+and use the extracted patterns to build models aimed at predicting psychological
+outcomes
