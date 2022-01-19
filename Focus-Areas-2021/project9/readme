@@ -1,0 +1,19 @@
+Goal of the Project: To study the data given, about the students’ personality
+traits, social behaviour and predict how co-related ((Or Different) are the
+individuals from others in the group along with predicting the individual’s
+personality.
+
+Main Result of the Project: We were able to fetch the information of the
+students who are highly co-related and highly not-co-related with the others
+members of the group, along with creating a classification and regression models
+to correctly classify individual traits. We found best classification with logistic
+regression model with auc 0.74 with target trait neurotic-ism and best regression
+model with mean squared error 0.42 and R2
+(coefficient of determination) 0.01
+with trait conscientiousness.
+
+Personal Key Leanings: Big five trait, 44 items, Prophet Library, Big Query,
+ICC (Inter-class Co-relation Coefficient)
+
+Keywords: Time Series data trend; Inter-Class Corelation Coefficient;
+Classification; Regression; Personality Traits
