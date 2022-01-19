@@ -1,0 +1,12 @@
+Goal of the Project: To find the co-relation between the activity and the stress
+for the students studying in a university, along with the other stress correlated
+features and training a classifier model to classify the mental state of a student.
+
+Main Result of the Project: We were able to find the co relation between the
+stress and activity for the students U10 and U16, and later derived a negative
+corelation between stress and conversation.
+
+Personal Key Leanings: Prophet Library, Using SQLLite, SQLAlchemy
+
+Keywords: Time Series data trend; Seasonality; Corelation; Classification;
+Studentlife
