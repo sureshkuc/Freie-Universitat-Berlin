@@ -1,1 +1,5 @@
 
+You are given MNIST-type training data of images with handwritten digits. The data consists of training images with associated labels in {0,1,…,9} and an unlabeled test set.
+
+Your task is to train a neural network model of your choice to predict the digit from the image.
+
