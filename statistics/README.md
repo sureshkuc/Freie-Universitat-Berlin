@@ -1,4 +1,4 @@
-Statistics Questions:
+Statistics Programming Questions that need to solve using python:
 ![Screenshot from 2022-01-19 07-04-22](https://user-images.githubusercontent.com/77930296/150074352-30137d9c-100a-4b26-bf2f-996bd5fdbfea.png)
 ![Screenshot from 2022-01-19 07-04-28](https://user-images.githubusercontent.com/77930296/150074405-ee731057-14bd-4211-b27d-193d69905355.png)
 ![Screenshot from 2022-01-19 07-04-38](https://user-images.githubusercontent.com/77930296/150074506-cb2509e6-2b39-490a-91eb-c89723025e22.png)
