@@ -1,0 +1,12 @@
+Goal of the Project: To employ cluster analysis and dimensionality reduction
+(using SVD) to extract patterns from large data of Facebook users and their likes
+and use the extracted patterns to build models aimed at predicting psychological
+outcomes.
+
+Main Result of the Project: Analyzed large Facebook dataset using SVD
+dimension reduction technique and predicted real-life outcomes using Logistic
+Regression.
+
+Personal Key Leanings: Big Data, SVD, Behavioural Traits
+
+Keywords: SVD; Big Data; Personality Traits
