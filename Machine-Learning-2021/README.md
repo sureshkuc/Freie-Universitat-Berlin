@@ -30,4 +30,8 @@ classes)? How would you change the way w and b is defined?
 Project4: Implement soft-margin Support Vector Machine
 algorithm, need to train and test on Iris Dataset and clean the Dataset provided.
 
-Project5.
+Project5: Need to implement, estimate and compare the variance
+on different sample sizes using different sampling techniques on the given dataset
+ie. Simple random sampling without replacement and stratified sampling.
+
+Project6: 
