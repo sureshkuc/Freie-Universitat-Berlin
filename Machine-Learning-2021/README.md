@@ -27,4 +27,7 @@ Entropy? Does this also work? Implement MSE and try for yourself.
 (b) (Optional) Can you think of a way to classify more than one class (in this case 10
 classes)? How would you change the way w and b is defined?
 
-Project4: 
+Project4: Implement soft-margin Support Vector Machine
+algorithm, need to train and test on Iris Dataset and clean the Dataset provided.
+
+Project5.
