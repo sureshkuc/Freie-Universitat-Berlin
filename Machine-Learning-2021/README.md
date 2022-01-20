@@ -110,6 +110,18 @@ learned to be the identity? (Optionally: Check if this happens during training)
 is the case.
 
 Project11:
+Excercise 1
+Implement an Autoencoder that encodes the MNIST dataset to a latent dimension of size m < 784.
+Use Tranposed Convolutions and/or Unpooling to solve this exercise. Train the Autoencoder and
+plot the reconstruction training loss. Plot 5 digits (of your choice) before and after reconstruction.
+Do this for two different latent dimension sizes.
+Exercise 2
+Now that you have built an Autoencoder, it is time to implement a Variational Autoencoder. You
+can use the Autoencoder you trained in the previous exercise and adapt it for this exercise. Do not
+forget to use the reparametrization trick for sampling from Z-space.
+a) Train a Variational Autoencoder with latent dimension of size 2. Then,
+plot the digits where their associated position was in latent space similarly as
+explained in the lecture
 
 Project12:
 Excercise 1. Recurrent Neural Networks (RNNs) (50%)
