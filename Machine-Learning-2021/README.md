@@ -124,6 +124,26 @@ plot the digits where their associated position was in latent space similarly as
 explained in the lecture
 
 Project12:
+Linear classification
+a) Compute the Bayes decision and Bayes error for this
+problem
+b) Produce a visual estimate of the best classifier in the
+class of all linear decision functions
+c) Generate training data D` from the joint distribution of
+(X, Y ) and sample the risk of the classifier.
+d) Generate training data D` from the joint distribution of
+(X, Y ) again. Write an algorithm that finds the empirically
+optimal decision function φb` by brute force minimization of
+Lb`(φ) over all 2 (r,l). different classifiers from the class C` of
+all classifiers that are defined by lines through pairs of data
+point
+e) Estimate the generalization error of the computed classifier (i.e., the true risk Lb`(φ) ) by sampling. Compare with
+(a).
+f) How large should ` be such that the confidence level of
+the empirically optimal classifier being at most 10% worse
+than the class-optimal classifier is 0.75
+
+Project13:
 Excercise 1. Recurrent Neural Networks (RNNs) (50%)
 Fill out the missing code in the given notebook1
 that you need to get the RNN to work and
