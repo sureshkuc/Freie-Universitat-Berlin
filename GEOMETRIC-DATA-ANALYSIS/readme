@@ -1,0 +1,9 @@
+In this study, sparse hierarchical graph Classification architecture was implemented to predict a class label associated with
+an entire graph. The purpose of this study was to reduce memory usage during model training without compromising with
+the accuracy as previous prominent methods were not scalable to large graphs. The performance of this architecture was
+compared against the state-of-the-art approach and verified on several established graph classification benchmarks in graph
+neural network design. This method had the accuracy at most in the range of 1% as state-of-art algorithm (diffpool1). State
+of art approach(diffpool1) requires a quadratic O(kV^2) storage complexity to be executed, however, the proposed approach
+requires only O(V +E)storage complexity, where k, V and E are the pooling ratio, number of nodes and edges in the graph
+respectively. Here author integrated numerous current advances in graphical neural network layout to illustrate that competitive
+hierarchical graph classification outcomes are viable without sacrificing sparsity.
