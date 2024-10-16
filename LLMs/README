@@ -1,1 +1,146 @@
+# BERT Fine-Tuning for Question Answering on SQuAD
 
+This repository contains code for fine-tuning BERT models for the task of question answering using the SQuAD dataset. The fine-tuning is performed using various techniques such as LoRA, LoHA, IA3, Prefix-Tuning, and Prompt Encoding.
+
+## Project Overview
+
+The project provides six Python scripts to fine-tune BERT for question-answering using different methods:
+
+1. **bert_fine_tuning.py**: Standard fine-tuning of BERT.
+2. **bert_fine_tuning_IA3.py**: Fine-tuning using IA3 (Insertion Attention and Adaptation).
+3. **bert_fine_tuning_LoRA.py**: Fine-tuning using LoRA (Low-Rank Adaptation).
+4. **bert_fine_tuning_LoHA.py**: Fine-tuning using LoHA (Low-rank Hardware-Aware Adaptation).
+5. **bert_fine_tuning_prefix-tuning.py**: Prefix-tuning for BERT.
+6. **bert_fine_tuning_prompt_encoder.py**: Fine-tuning using a prompt encoder.
+
+Each of these techniques offers different strategies for adapting the pre-trained BERT model to perform well on question-answering tasks, particularly on the SQuAD dataset.
+
+## Table of Contents
+
+- [Project Overview](#project-overview)
+- [Setup](#setup)
+- [Scripts and Fine-Tuning Techniques](#scripts-and-fine-tuning-techniques)
+- [Training Process](#training-process)
+- [Evaluation](#evaluation)
+- [Logging and Monitoring](#logging-and-monitoring)
+- [Results](#results)
+
+## Setup
+
+### Prerequisites
+
+To run the scripts, you'll need the following packages installed:
+
+- `torch`
+- `transformers`
+- `datasets`
+- `mlflow`
+- `evaluate`
+
+You can install them using pip:
+
+```bash
+pip install torch transformers datasets mlflow evaluate
+```
+
+### Clone the Repository
+
+Clone the repository to your local machine:
+
+```bash
+git clone https://github.com/your-username/bert-fine-tuning-qa.git
+cd bert-fine-tuning-qa
+```
+
+### Dataset
+
+Ensure you have the SQuAD dataset saved in your local directory. The scripts assume the dataset has been loaded from a previously saved directory using `load_from_disk`.
+
+For example, you can save the SQuAD dataset using:
+
+```python
+from datasets import load_dataset
+squad_dataset = load_dataset("squad")
+squad_dataset.save_to_disk("./squad_data")
+```
+
+## Scripts and Fine-Tuning Techniques
+
+### 1. `bert_fine_tuning.py`
+
+This script fine-tunes BERT on the SQuAD dataset using the standard method provided by Hugging Face's `Trainer` API. It logs training metrics and saves the model using MLflow.
+
+### 2. `bert_fine_tuning_IA3.py`
+
+Implements IA3 (Insertion Attention and Adaptation) fine-tuning, which introduces additional attention layers to improve model adaptability with minimal additional parameters.
+
+### 3. `bert_fine_tuning_LoRA.py`
+
+Uses LoRA (Low-Rank Adaptation) to fine-tune BERT. This approach adjusts the model with fewer parameters, resulting in more efficient fine-tuning while maintaining performance.
+
+### 4. `bert_fine_tuning_LoHA.py`
+
+LoHA (Low-rank Hardware-Aware Adaptation) is another fine-tuning method that reduces the number of trainable parameters, optimized for hardware efficiency without sacrificing accuracy.
+
+### 5. `bert_fine_tuning_prefix-tuning.py`
+
+Prefix-tuning adapts BERT by tuning a small number of continuous prompts (prefixes) for each task while keeping the rest of the model frozen. This method is useful for memory-efficient fine-tuning.
+
+### 6. `bert_fine_tuning_prompt_encoder.py`
+
+This script implements fine-tuning via a prompt encoder. It leverages task-specific prompts that are learned during training to adapt the model without requiring changes to the underlying BERT architecture.
+
+## Training Process
+
+1. **Set Model Checkpoints**: In each script, you can set the model checkpoint (e.g., `bert-base-uncased`) to use different variants of the BERT model.
+
+2. **Tokenization and Dataset Preprocessing**: The scripts handle tokenization and preprocessing of the SQuAD dataset. You can adjust parameters like `max_length` and `doc_stride` as needed.
+
+3. **Training**: The models are trained using the Hugging Face `Trainer` API with the specified learning rates, batch sizes, and number of epochs. Training arguments are customizable within the script.
+
+4. **Fine-Tuning Specifics**: Depending on the method (IA3, LoRA, etc.), different modules within the BERT architecture are adapted to the task.
+
+## Evaluation
+
+Each script evaluates the fine-tuned model on the validation set of the SQuAD dataset. The evaluation process includes:
+
+- Making predictions using the validation dataset.
+- Post-processing of the predictions to match the SQuAD format.
+- Computing metrics such as Exact Match (EM) and F1 score using Hugging Face's `evaluate` package.
+
+## Logging and Monitoring
+
+MLflow is used to log all training parameters, metrics, and models. During training:
+
+- Parameters like `model_checkpoint`, `batch_size`, `max_length`, and `num_train_epochs` are logged.
+- Training metrics such as `training_time` and evaluation results are also logged.
+- The fine-tuned model is saved and versioned with MLflow.
+
+## Results
+
+After training, you can view the results in the MLflow UI, which will include:
+
+- Final metrics (EM, F1 score) for the validation set.
+- The fine-tuned model artifact for further inference or deployment.
+
+## Example Usage
+
+To run the standard fine-tuning script, for example:
+
+```bash
+python bert_fine_tuning.py
+```
+
+Replace with any other script to test specific fine-tuning methods:
+
+```bash
+python bert_fine_tuning_LoRA.py
+```
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+This `README.md` file is structured to guide users on how to set up the environment, run the fine-tuning scripts, and understand the different approaches used in fine-tuning BERT for question answering tasks. Be sure to adjust the GitHub link and any specific paths as needed!
