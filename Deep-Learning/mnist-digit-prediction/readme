@@ -48,7 +48,7 @@ The project is organized into the following folders and files:
 ### 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/handwritten-digit-recognition.git
+git clone https://github.com/sureshkuc/mnist-digit-prediction.git
 ```
 
 ### 2. Install dependencies:
