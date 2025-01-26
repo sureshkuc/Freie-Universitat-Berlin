@@ -4,7 +4,7 @@
 Welcome to the **Handwritten Digit Recognition** project! 🎉  
 This project focuses on training neural network models to classify handwritten digits using an MNIST-like dataset.
 
-![Project Image](link_to_image.jpg)  <!-- Add an image for visual appeal -->
+![Project Image](outputs/image-predictions.png)  <!-- Add an image of the predictions -->
 
 ---
 
@@ -28,7 +28,11 @@ The project is organized into the following folders and files:
 - **`src/`**: Source code for neural network models:
     - **`mnist_neural_network.py`**: Simple MLP for digit classification.
     - **`mnist_cnn.py`**: CNN for better performance.
-- **`outputs/`**: Contains model evaluation results (accuracy, loss, etc.).
+- **`outputs/`**: Contains model evaluation results (accuracy, loss, etc.):
+    - **`image-predictions.png`**: Visual representation of the predicted images.
+    - **`imclassified-images.png`**: Examples of the classified images.
+    - **`loss-curve.png`**: The loss and accuracy curve for model evaluation.
+    - **`weight-layers.png`**: Visuals showing the weight layers of the trained models.
 
 ---
 
@@ -85,6 +89,18 @@ python src/mnist_cnn.py
 ## 📈 Model Evaluation
 
 Once training is completed, evaluate your model's performance on the test set. The evaluation results will be saved in the `outputs/` folder. You can visualize metrics such as accuracy and loss curves for further analysis.
+
+- **Loss and Accuracy Curves**: ![Loss Curve](outputs/loss-curve.png)  
+  This image shows the training loss and accuracy over time for model evaluation.
+
+- **Predicted Images**: ![Predicted Images](outputs/image-predictions.png)  
+  The predicted digits on test images are displayed here.
+
+- **Classified Images**: ![Classified Images](outputs/imclassified-images.png)  
+  Examples of images and their predicted labels after training.
+
+- **Weight Layers**: ![Weight Layers](outputs/weight-layers.png)  
+  Visual representation of the weights in different layers of the neural network model.
 
 ---
 
