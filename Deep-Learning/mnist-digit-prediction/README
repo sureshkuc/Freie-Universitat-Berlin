@@ -1,3 +1,4 @@
+```markdown
 # Handwritten Digit Recognition
 
 Welcome to the **Handwritten Digit Recognition** project! 🎉  
@@ -9,7 +10,7 @@ This project focuses on training neural network models to classify handwritten d
 
 ## 🚀 Project Overview
 
-The goal of this project is to predict the handwritten digits (0-9) from images using various neural network models, including:
+The goal of this project is to predict handwritten digits (0-9) from images using various neural network models, including:
 - A basic Fully Connected Neural Network (MLP)
 - A more advanced Convolutional Neural Network (CNN)
 
@@ -101,6 +102,7 @@ Feel free to contribute to this project! Open an issue or submit a pull request 
 
 ## 💬 Contact
 
-If you have any questions or suggestions, feel free to reach out:
-- Email: skcberlin dot gmail.com 
+If you have any questions or suggestions, feel free to reach out:  
+- Email: skcberlin dot gmail.com  
 - LinkedIn: 
+```
