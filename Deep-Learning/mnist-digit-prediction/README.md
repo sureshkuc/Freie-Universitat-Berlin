@@ -91,10 +91,9 @@ Once training is completed, evaluate your model's performance on the test set. T
 - **Loss and Accuracy Curves**: ![Loss Curve](outputs/loss-curve.png)  
   This image shows the training loss and accuracy over time for model evaluation.
 
-- **Predicted Images**: ![Predicted Images](outputs/image-predictions.png)  
-  The predicted digits on test images are displayed here.
 
-- **Classified Images**: ![Classified Images](outputs/imclassified-images.png)  
+
+- **MissClassified Images**: ![MissClassified Images](outputs/imclassified-images.png)  
   Examples of images and their predicted labels after training.
 
 - **Weight Layers**: ![Weight Layers](outputs/weight-layers.png)  
