@@ -4,8 +4,6 @@
 Welcome to the **Handwritten Digit Recognition** project! 🎉  
 This project focuses on training neural network models to classify handwritten digits using an MNIST-like dataset.
 
-![Project Image](outputs/image-predictions.png)  <!-- Add an image of the predictions -->
-
 ---
 
 ## 🚀 Project Overview
