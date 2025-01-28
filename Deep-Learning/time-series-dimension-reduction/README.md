@@ -1,5 +1,3 @@
-Here's an example of a README.md file for your GitHub project:
-
 ```markdown
 # Time Series Dimensionality Reduction and Clustering
 
@@ -113,11 +111,10 @@ This will evaluate the model's performance on the validation dataset and visuali
 
 After running the project, you will find the following outputs in the `outputs/` folder:
 
-- **`test-set-prediction-clustering`**: A visualization showing the predicted clusters for the test set.
- ![test-set-prediction-clustering](outputs/test-set-prediction-clustering.png)  
-- **`A histogram of the distribution of predicted clusters.`**: 
- ![test-set-prediction-clustering](outputs/prediction-hist.png)  
-
+- **`test-set-prediction-clustering`**: ![test-set-prediction-clustering](outputs/test-set-prediction-clustering.png)  
+A visualization showing the predicted clusters for the test set.
+- **`Histogram`**: ![test-set-prediction-clustering](outputs/prediction-hist.png)  
+A histogram of the distribution of predicted clusters.
 ---
 
 ## 📝 License
