@@ -103,7 +103,7 @@ This will output the predicted labels for the test set and save them in the `out
 ## 📊 Model Evaluation
 
 Once the model has been trained, you can evaluate its performance on the test set. The evaluation metrics (such as accuracy and loss) will be saved in the `outputs/` folder. You can also plot the training error convergence to visualize how the model improved during training.
-- **Loss and Accuracy Curves**: ![Loss Curve](outputs/loss-curve.png)  
+- **Loss Curves**: ![Loss Curve](outputs/loss-curve.png)  
   This image shows the training loss and test loss over time for model evaluation.
 
 ---
