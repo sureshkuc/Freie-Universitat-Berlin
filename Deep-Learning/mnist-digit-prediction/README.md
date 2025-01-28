@@ -119,4 +119,7 @@ If you have any questions or suggestions, feel free to reach out:
 - Email: skcberlin dot gmail.com  
 - LinkedIn: 
 ```
+<<<<<<< HEAD
 
+=======
+>>>>>>> bdc16bfa01e2f1247708de535d8c75d725535567
