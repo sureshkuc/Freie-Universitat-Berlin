@@ -133,7 +133,8 @@ The predictions will be saved in a file named `prediction.npy`, which should be 
 
 The following images will be saved in the `outputs/` folder as part of the training and evaluation process:
 - **RNN**: 
-
+- **Loss Curve**: ![Loss Curve](outputs/rnn-loss-curve.png)  
+- **Accuracy Curve**: ![Accuracy Curve](outputs/rnn-accuracy-curve.png)
   
 - **LSTM**:
 - **Loss Curve**: ![Loss Curve](outputs/lstm-loss-curve.png)  
