@@ -50,7 +50,7 @@ The project is organized as follows:
 ### 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/genetic-sequence-classifier.git
+git clone https://github.com/sureshkuc/genetic-sequence-classifier.git
 cd genetic-sequence-classifier
 ```
 
