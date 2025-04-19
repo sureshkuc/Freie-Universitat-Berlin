@@ -24,20 +24,22 @@ This project explores **Deep Learning-based approaches** for classifying metagen
 ## 📁 Project Structure
 
 ```
-├── data/               # Input data and processed datasets
-├── docs/               # Documentation and references
-├── outputs/            # Output results, plots, and saved models
-│   ├── accuracy-curve.png
-│   └── loss-curve.png
-├── src/                # Source code for model training and evaluation
-│   ├── config.py
-│   ├── model.py
-│   ├── plot.py
-│   ├── main.py
-│   ├── evaluation.py
-│   └── train.py
-├── requirements.txt    # Python dependencies
-└── README.md           # Project documentation (this file)
+```
+- ├── data/               # Input data and processed datasets
+- ├── docs/               # Documentation and references
+- ├── outputs/            # Output results, plots, and saved models
+- │   ├── accuracy-curve.png
+- │   └── loss-curve.png
+- ├── src/                # Source code for model training and evaluation
+- │   ├── config.py
+- │   ├── model.py
+- │   ├── plot.py
+- │   ├── main.py
+- │   ├── evaluation.py
+- │   └── train.py
+- ├── requirements.txt    # Python dependencies
+- └── README.md           # Project documentation (this file)
+```
 ```
 
 ---
