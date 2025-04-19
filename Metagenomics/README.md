@@ -46,7 +46,7 @@ This project explores **Deep Learning-based approaches** for classifying metagen
 
 1. **Clone the Repository**
 ```bash
-git clone https://github.com/yourusername/metagenomics-taxonomy-classifier.git
+git clone https://github.com/sureshkuc/metagenomics-taxonomy-classifier.git
 cd metagenomics-taxonomy-classifier
 ```
 
