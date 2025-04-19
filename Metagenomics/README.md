@@ -1,5 +1,3 @@
----
-
 ```markdown
 # 🧬 Deep Learning for Taxonomic Classification of Metagenomic Data
 
@@ -130,6 +128,4 @@ If you have any questions, feel free to reach out:
 
 ---
 ```
-
----
 
