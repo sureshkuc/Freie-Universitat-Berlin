@@ -57,7 +57,7 @@ The classifier was tested with different values of **k**, and the accuracy resul
 ### 1️⃣ Clone the Repository:
 
 ```bash
-git clone https://github.com/yourusername/kNN-Classifier.git
+git clone https://github.com/sureshkuc/kNN-Classifier.git
 cd kNN-Classifier
 ```
 
@@ -128,8 +128,4 @@ Feel free to contribute by **opening an issue** or **submitting a pull request**
 💼 LinkedIn: 
 ---
 
-🔹 **Star ⭐ this repository if you find it useful!**  
-🔹 **Happy Coding! 🚀**
 ```
-
----

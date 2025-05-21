@@ -1,5 +1,3 @@
-Here’s a professional and informative `README.md` file in Markdown format for your GitHub project:
-
 ---
 
 ````markdown
@@ -144,4 +142,4 @@ This project is open-source and available under the [MIT License](LICENSE).
 
 
 ---
-
+```
