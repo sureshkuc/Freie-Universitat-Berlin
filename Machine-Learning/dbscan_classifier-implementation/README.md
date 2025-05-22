@@ -1,5 +1,3 @@
----
-
 ````markdown
 # 🌀 DBSCAN Classifier on Two-Spirals Dataset
 
