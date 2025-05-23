@@ -71,11 +71,9 @@ This will load the SPAM dataset, train the AdaBoost model using decision stumps,
 * ✅  ### Confusion Matrix  
 ![Confusion Matrix](outputs/cm.png)
 
-* ✅ ### ROC-AUC Curve  
+* ✅ ###  F1-Score, ROC-AUC Curve and Accuracy   
 ![ROC-AUC](outputs/auc.png)
 
-* ✅ ### F1-Score  
-![F1-Score](outputs/F1-score.png)
 
 ### 🔁 Experiment: Stronger Weak Learners?
 
