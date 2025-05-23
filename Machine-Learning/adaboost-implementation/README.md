@@ -19,9 +19,6 @@ AdaBoost Implementation** – a hands-on machine learning project where we build
 
 ## 📁 Project Structure
 
-```
-
-.
 ├── README.md
 ├── requirements.txt
 ├── src/
@@ -39,7 +36,6 @@ AdaBoost Implementation** – a hands-on machine learning project where we build
 │   ├── F1-score.png           # F1-score visualization
 │   └── ...                    # Other model outputs
 
-```
 
 ---
 
