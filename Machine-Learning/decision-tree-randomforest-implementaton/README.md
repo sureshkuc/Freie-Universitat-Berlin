@@ -5,7 +5,6 @@ This project implements **Decision Trees** and **Random Forests** from scratch u
 
 ## 📁 Project Structure
 
-```
 
 project6/
 ├── src/
@@ -25,8 +24,6 @@ project6/
 │
 ├── requirements.txt          # Python dependencies
 └── README.md                 # Project documentation
-
-````
 
 ---
 

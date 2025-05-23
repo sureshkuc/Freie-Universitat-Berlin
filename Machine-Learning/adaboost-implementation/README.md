@@ -3,7 +3,6 @@
 
 AdaBoost Implementation** – a hands-on machine learning project where we build the AdaBoost ensemble learning algorithm from scratch using **Python** and **NumPy**, and apply it to the **SPAM dataset**. Our weak learners are decision stumps (1-level decision trees), and we evaluate model performance using various metrics and visualizations.
 
-![Confusion Matrix](outputs/cm.png)
 
 ---
 
@@ -69,9 +68,14 @@ This will load the SPAM dataset, train the AdaBoost model using decision stumps,
 
 ## 📊 Evaluation & Results
 
-* ✅ **Confusion Matrix**: `outputs/cm.png`
-* ✅ **ROC-AUC Curve**: `outputs/auc.png`
-* ✅ **F1-Score**: `outputs/F1-score.png`
+* ✅  ### Confusion Matrix  
+![Confusion Matrix](outputs/cm.png)
+
+* ✅ ### ROC-AUC Curve  
+![ROC-AUC](outputs/auc.png)
+
+* ✅ ### F1-Score  
+![F1-Score](outputs/F1-score.png)
 
 ### 🔁 Experiment: Stronger Weak Learners?
 

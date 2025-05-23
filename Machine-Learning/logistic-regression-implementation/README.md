@@ -29,7 +29,6 @@ The goal of this exercise is to understand and implement Logistic Regression lik
 
 ## 📁 Project Structure
 
-```
 
 logistic-regression/
 ├── requirements.txt
@@ -47,7 +46,6 @@ logistic-regression/
 │   ├── main.py            # Pipeline orchestration
 │   └── evaluation.py      # Accuracy, precision, recall, confusion matrix, etc.
 
-````
 
 ---
 
