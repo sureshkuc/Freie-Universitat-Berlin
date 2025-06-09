@@ -9,7 +9,6 @@ This repository contains Python implementations of:
 
 ## 📁 Project Structure
 
-```
 
 ├── data/                          # Datasets (e.g. Iris, ZIP)
 ├── docs/                          # Documentation resources
@@ -28,7 +27,6 @@ This repository contains Python implementations of:
 ├── README.md                      # Project overview (this file)
 └── requirements.txt               # Python dependencies
 
-````
 
 ---
 
