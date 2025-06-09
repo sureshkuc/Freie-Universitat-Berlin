@@ -18,8 +18,6 @@ This project walks through:
 
 ## 📁 Directory Structure
 
-```
-
 project4-svm-iris/
 │
 ├── README.md                  <- Project documentation
@@ -41,8 +39,6 @@ project4-svm-iris/
 │   ├── evaluation.py          <- Model evaluation (accuracy, confusion matrix)
 │   ├── plot.py                <- Plotting functions
 │   └── main.py                <- Pipeline entry point
-
-````
 
 ---
 
